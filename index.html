@@ -45,12 +45,24 @@
             bottom: 0;
             width: 100%;
         }
+
+        .marquee {
+            overflow: hidden;
+            white-space: nowrap;
+        }
+
+        .marquee img {
+            display: inline-block;
+            margin-right: 20px; /* Adjust spacing between images */
+            width: 200px; /* Set the width of the images */
+            height: auto; /* Maintain aspect ratio */
+        }
     </style>
 </head>
 <body>
 
     <header>
-        <h1>Blood Sugar Testing Device</h1>
+        <h1>Glucolink</h1>
     </header>
 
     <section>
@@ -69,8 +81,16 @@
         <p>Our blood sugar testing device utilizes advanced technology to measure glucose levels in real-time. The data is conveniently accessible through a user-friendly interface, allowing individuals to monitor and manage their blood sugar levels effectively.</p>
     </section>
 
+    <div class="marquee">
+        <img src="lab_testing_image1.jpg" alt="Laboratory Testing of Glucose">
+        <img src="lab_testing_image2.jpg" alt="Laboratory Testing of Glucose">
+        <img src="device_image1.jpg" alt="Blood Sugar Testing Device">
+        <img src="device_image2.jpg" alt="Blood Sugar Testing Device">
+        <!-- Add more image sources as needed -->
+    </div>
+
     <footer>
-        <p>&copy; 2023 Blood Sugar Testing Device | Designed by Your Company Name</p>
+        <p>&copy; 2023 Glucolink | Designed by Your Company Name</p>
     </footer>
 
 </body>
