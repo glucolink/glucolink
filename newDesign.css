@@ -13,7 +13,6 @@ body{
     background-image: linear-gradient(to right,rgba(255,0,0,0.7),rgba(98,52,140,0.7));
     width: 100%;
     line-height: 2.8;
-    cursor: pointer;
 }
 #header a{
     padding: 0px 37px;
@@ -22,10 +21,6 @@ body{
     color: white;
     font-family: "Arial";
     cursor: pointer;
-}
-
-#header:hover{
-  background-image:linear-gradient(to right,rgba(255,0,0,0.7),rgba(98,52,140,0.7));
 }
 
 #header a img{
