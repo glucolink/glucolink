@@ -10,7 +10,7 @@ body{
 }
 #header{
     display: inline-block;
-    background-color: rgba(0,0,0,0.8);
+    background-color: linear-gradient(to right,rgba(255,0,0,0.7),rgba(98,52,140,0.7));
     width: 100%;
     line-height: 2.8;
     cursor: pointer;
